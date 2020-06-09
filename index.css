@@ -1,0 +1,107 @@
+body {
+  background-color: #eeeeee;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 400px;
+  height: 25px;
+  background: transparent;
+  opacity: 0.9;
+  border-style: none none solid none;
+  border-color: #ffffff;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+.helvetica {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.js-clock {
+  margin-bottom: -180px;
+}
+
+.js-clock h1 {
+  font-size: 180px;
+}
+
+.weather-container {
+  width: 600px;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.js-weather {
+  font-size: 20px;
+}
+
+.form,
+.greeting {
+  display: none;
+}
+
+.showing {
+  display: block;
+  margin: 15px;
+  font-size: 30px;
+}
+
+.list-container {
+  width: 400px;
+}
+
+.js-toDoList {
+  font-size: 25px;
+  font-weight: bold;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
