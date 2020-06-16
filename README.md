@@ -1,1 +1,1 @@
-Special thanks for Nomad Coders - https://academy.nomadcoders.co/p/javascript-basics-for-absolute-beginners-kr
+Special thanks for Nomad Coders - https://nomadcoders.co/javascript-for-beginners
